@@ -15,3 +15,5 @@ $ python3 EDAMTest.py
 
 - [evernote/evernote-sdk-python3: Testing the Evernote Cloud API for Python 3](https://github.com/evernote/evernote-sdk-python3)
   - Especially, [evernote-sdk-python3/sample/client](https://github.com/evernote/evernote-sdk-python3/tree/master/sample/client)
+- [Search - Evernote Developers](https://dev.evernote.com/doc/articles/search.php)
+- [Note Links - Evernote Developers](https://dev.evernote.com/doc/articles/note_links.php)
