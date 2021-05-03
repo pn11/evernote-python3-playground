@@ -4,11 +4,22 @@
 
 !!Caution!! This runs in your Evernote DB, not a sandbox.
 
+### Create new note
+
 ```sh
 $ cat .env
 EVERNOTE_TOKEN="YOUR_TOKEN_HERE"
-$ pip3 install requirements.txt
+$ pip3 install -r requirements.txt
 $ python3 EDAMTest.py
+```
+
+### Search note
+
+```sh
+$ cat .env
+EVERNOTE_TOKEN="YOUR_TOKEN_HERE"
+$ pip3 install -r requirements.txt
+$ python3 search_sample.py
 ```
 
 ## Reference
