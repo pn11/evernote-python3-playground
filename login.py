@@ -14,6 +14,7 @@ import dotenv
 # you to access your own Evernote account. To get a developer token, visit
 # https://sandbox.evernote.com/api/DeveloperToken.action
 
+
 def login():
     dotenv.load_dotenv(verbose=True)
     dotenv_path = join(dirname(__file__), '.env')
@@ -23,7 +24,7 @@ def login():
     if auth_token == "your developer token":
         print("Please fill in your developer token")
         print("To get a developer token, visit "
-            "https://sandbox.evernote.com/api/DeveloperToken.action")
+              "https://sandbox.evernote.com/api/DeveloperToken.action")
         exit(1)
 
     # Initial development is performed on our sandbox server. To use the production
@@ -50,5 +51,5 @@ def login():
     print("")
     if not version_ok:
         exit(1)
-    
+
     return client

@@ -5,8 +5,10 @@ import evernote.edam.notestore.NoteStore as NoteStore
 
 import login
 
+
 def main():
-    parser = argparse.ArgumentParser(description='Search your note in Evernote')
+    parser = argparse.ArgumentParser(
+        description='Search your note in Evernote')
     parser.add_argument('search_query', help='search query')
     args = parser.parse_args()
     print(args)
@@ -29,7 +31,6 @@ def main():
 
     def make_link(user, note):
         return f"https://www.evernote.com/shard/{user.shardId}/nl/{user.id}/{note.guid}"
-
 
     for note in ourNoteList.notes:
         print(f"{note.title}: {make_link(user, note)}")
