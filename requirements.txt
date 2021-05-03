@@ -1,0 +1,11 @@
+certifi
+chardet
+evernote3
+httplib2
+idna
+oauth2
+oauthlib
+pyparsing
+requests
+requests-oauthlib
+urllib3
